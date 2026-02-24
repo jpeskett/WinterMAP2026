@@ -411,100 +411,170 @@ tr:hover { background:var(--bg); }
 <div class="section" id="section-solutions">
   <div class="card" style="border-top:3px solid var(--sol)">
     <h2 style="color:var(--sol)">Solutions: Systemic Fixes to Drive 2x Growth</h2>
-    <p style="color:var(--text-muted);font-size:0.95rem">Actionable recommendations to address curriculum effectiveness, pacing, test rigor, and doom loop detection.</p>
   </div>
 
+  <!-- Executive Summary -->
   <div class="card">
-    <h3 style="color:var(--sol)">For Bucket 1 & 2: Curriculum Effectiveness & Efficiency</h3>
+    <h3 style="color:var(--sol)">Executive Summary</h3>
+    <p style="color:var(--text-muted);font-size:0.9rem;margin-bottom:12px;">We will drive 2x growth by addressing four systemic breakdowns:</p>
+    <ul style="margin-left:20px; font-size:0.9rem;">
+      <li><strong>Bucket 1 (Not Effective):</strong> Core courses did not create durable learning &rarr; replace with DI-quality Alpha Math (starting Grade 3).</li>
+      <li><strong>Bucket 2 (Not Efficient):</strong> Students progressed too slowly due to pacing, time-on-task, and fluency constraints &rarr; enforce pacing visibility and fluency pathways.</li>
+      <li><strong>Bucket 3a (Tests Not Rigorous):</strong> K&ndash;2 assessments overstated mastery &rarr; redesign with MAP-like item types and higher cognitive demand.</li>
+      <li><strong>Bucket 3b (Doom Loop):</strong> Students cycled through hole-filling and repeated tests without skill change &rarr; implement doom loop detection and replace HF content.</li>
+    </ul>
+  </div>
+
+  <!-- Bucket 1 -->
+  <div class="card">
+    <h3 style="color:var(--sol)">Bucket 1: Not Effective</h3>
     <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
-      <h4 style="color:var(--sol); margin-bottom:12px;">Strengthen Curriculum Effectiveness</h4>
+      <h4 style="color:var(--sol); margin-bottom:12px;">Problem</h4>
+      <p style="font-size:0.9rem; color:var(--text-muted);">Curriculum/tools do not reliably produce learning that transfers to mastery tests or MAP.</p>
+    </div>
+    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
+      <h4 style="color:var(--sol); margin-bottom:12px;">System Fixes</h4>
       <ul style="margin-left:20px; font-size:0.9rem;">
-        <li><strong>Adopt curriculum from our new courses:</strong> Replace Zearn with Direct Instruction App to provide explicit worked examples and more practice.</li>
-        <li><strong>Audit standards coverage:</strong> Ensure all TEKS are covered at the depth and rigor required by MAP assessments.</li>
-        <li><strong>Eliminate low-effectiveness tools:</strong> Replace Freckle (K-2) and Edia (3-8) which shows weak outcomes for HF due to lack of instruction.</li>
+        <li><strong>Replace low-effectiveness core courses (Grade 3+):</strong> Move students off Freckle/Edia-style content and into Alpha Math courses (explicit instruction, worked examples, sufficient practice).</li>
+        <li><strong>Release TEKS-aligned Alpha supplements:</strong> Replace Edia gap-fill with DI-quality TEKS-aligned Alpha hole-filling courses.</li>
+        <li><strong>Eliminate underperforming HF tools:</strong> Sunset Freckle and Edia where data shows weak outcomes; replace with AlphaMath HF content that actually teaches the skill.</li>
       </ul>
     </div>
-
-    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
-      <h4 style="color:var(--sol); margin-bottom:12px;">Enforce Time-on-Task & Pacing Standards</h4>
-      <ul style="margin-left:20px; font-size:0.9rem;">
-        <li><strong>Enforce 25 min/day minimum:</strong> Students should spend at least 25 minutes daily on math instruction; track and alert on underinvestment.</li>
-        <li><strong>Create pacing alerts:</strong> Flag students who haven't progressed in 2 weeks; trigger intervention.</li>
-        <li><strong>Monitor course completion:</strong> Students should complete courses within a semester; automate completion checks.</li>
-      </ul>
-    </div>
-
     <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius);">
-      <h4 style="color:var(--sol); margin-bottom:12px;">Prerequisite Gates: FastMath Fluency</h4>
+      <h4 style="color:var(--sol); margin-bottom:12px;">Success Criteria</h4>
       <ul style="margin-left:20px; font-size:0.9rem;">
-        <li><strong>FastMath gating:</strong> Students in FastMath must keep pace with main math to finish faster, so implement FastMath Gates in AlphaTest. </li>
-        <li><strong>Fluency bottleneck alert:</strong> Flag students stuck at FM HMG less than Math HMG and dedicate time to fluency remediation with a more engaging app.</li>
+        <li>Higher first-pass mastery rates</li>
+        <li>Faster course completion</li>
+        <li>Reduced time spent in doom loops</li>
+        <li>Stronger MAP growth for equal time invested</li>
       </ul>
     </div>
   </div>
 
+  <!-- Bucket 2 -->
   <div class="card">
-    <h3 style="color:var(--sol)">For Bucket 3a: Assessment Rigor</h3>
+    <h3 style="color:var(--sol)">Bucket 2: Not Efficient</h3>
     <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
-      <h4 style="color:var(--sol); margin-bottom:12px;">Improve Test Rigor & Validity</h4>
-      <ul style="margin-left:20px; font-size:0.9rem;">
-        <li><strong>K-2 test redesign:</strong> Alpha tests for K-2 need higher cognitive demand to match emerging MAP rigor expectations.</li>
-        <li><strong>Grade 3+ monitoring:</strong> Our 3-8 tests are already rigorous as evidenced by low pass rates; focus instead on catching doom loops with alerts and ensuring mastery depth with new curriculum.</li>
-      </ul>
+      <h4 style="color:var(--sol); margin-bottom:12px;">Problem</h4>
+      <p style="font-size:0.9rem; color:var(--text-muted);">Students are not progressing fast enough due to pacing, time-on-task, fluency gaps, or weak course structure.</p>
     </div>
-  </div>
-
-  <div class="card">
-    <h3 style="color:var(--sol)">For Bucket 3b: Doom Loop Prevention</h3>
     <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
-      <h4 style="color:var(--sol); margin-bottom:12px;">Deploy Doom Loop Detection</h4>
+      <h4 style="color:var(--sol); margin-bottom:12px;">System Fixes</h4>
       <ul style="margin-left:20px; font-size:0.9rem;">
-        <li><strong>Alert when any student takes the same grade-level test more than 3 times.</strong> This threshold indicates a doom loop.</li>
-        <li><strong>Investigate what instructional content they're cycling through and why it's not working.</li>
-        <li><strong>Replace ineffective content</strong> with Direct Instruction or engaging fluency-focused tools.</li>
-        <li><strong>For students 3+ grades behind with 4+ attempts,</strong> conduct a comprehensive diagnostic in MA or Incept MA to identify foundational gaps rather than assigning more test attempts.</li>
-      </ul>
-    </div>
-
-    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
-      <h4 style="color:var(--sol); margin-bottom:12px;">Foundational Fluency Intervention</h4>
-      <ul style="margin-left:20px; font-size:0.9rem;">
-        <li><strong>HMFMG=HMMGrequirement:</strong> Students in Bucket 3b with HMG in FM less than HMG in Math should catch up to HMG for M in FM.</li>
-        <li><strong>Fluency bottleneck alert:</strong> Flag students stuck without FM=M; change apps and dedicate additional focused time (10 min HW) to fluency remediation.</li>
-        <li><strong>Time-on-task enforcement:</strong> These students are logging fewer hours despite more attempts; ensure at least 25 min/day committed to math instruction and 20 to FM practice.</li>
-      </ul>
-    </div>
-
-  </div>
-
-  <div class="card">
-    <h3 style="color:var(--sol)">Early Warning System: Dashboard & Alerts</h3>
-    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius);">
-      <ul style="margin-left:20px; font-size:0.9rem;">
-        <li><strong>Time-on-task vs. growth correlation:</strong> Build dashboard showing minutes invested vs. MAP growth; surface students investing time but not growing</li>
-        <li><strong>Automated alerts:</strong>
+        <li><strong>Monitor course completion velocity:</strong> Build dashboard showing % completion pace for every student. Alert when not on track to complete within &frac12; year.</li>
+        <li><strong>Add pacing alerts:</strong> No student should remain in the same grade for 16 months without system visibility.</li>
+        <li><strong>Fix fluency bottlenecks:</strong> When fluency lags:
           <ul style="margin-left:20px; margin-top:8px;">
-            <li>Below 25 min/day average over a week</li>
-            <li>No course progress in 10+ days</li>
-            <li>Test attempts > 3 on same grade level</li>
-            <li>High failure count with low time investment (rushing)</li>
-            <li>FM less than M students attempting grade-level work</li>
+            <li>Shift to DreamUp / Math Raiders</li>
+            <li>Require +10 minutes at home</li>
+            <li>Enforce 10 min in-core + 10 min outside-core model</li>
           </ul>
         </li>
-        <li><strong>Intervention escalation:</strong> Alert → Campus leader review → Student/family outreach within 48 hours</li>
+      </ul>
+    </div>
+    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius);">
+      <h4 style="color:var(--sol); margin-bottom:12px;">Success Criteria</h4>
+      <ul style="margin-left:20px; font-size:0.9rem;">
+        <li>Students moving &ge;50% faster than Sessions 1&ndash;3 baseline</li>
+        <li>Increased daily XP</li>
+        <li>Minutes invested correlate to mastery gained</li>
       </ul>
     </div>
   </div>
 
+  <!-- Bucket 3a -->
+  <div class="card">
+    <h3 style="color:var(--sol)">Bucket 3a: Tests Not Rigorous</h3>
+    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
+      <h4 style="color:var(--sol); margin-bottom:12px;">Problem</h4>
+      <p style="font-size:0.9rem; color:var(--text-muted);">K&ndash;2 assessments lacked rigor and created false signals of mastery. Students passed in 1&ndash;3 attempts but failed to grow 2x on MAP.</p>
+    </div>
+    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
+      <h4 style="color:var(--sol); margin-bottom:12px;">System Fixes</h4>
+      <ul style="margin-left:20px; font-size:0.9rem;">
+        <li><strong>Standardize K&ndash;2 testing:</strong> Redesign assessments with item types similar to MAP practice tests.</li>
+        <li><strong>Increase cognitive demand:</strong> Remove low-depth, high-%-correct items. Require reasoning, accuracy, and transfer.</li>
+      </ul>
+    </div>
+    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius);">
+      <h4 style="color:var(--sol); margin-bottom:12px;">Success Criteria</h4>
+      <ul style="margin-left:20px; font-size:0.9rem;">
+        <li>Fewer K&ndash;2 students in Bucket 3a next MAP</li>
+        <li>Stronger correlation between internal mastery and MAP growth</li>
+        <li>Reduced downstream doom loops caused by false positives</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bucket 3b -->
+  <div class="card">
+    <h3 style="color:var(--sol)">Bucket 3b: Doom Loop</h3>
+    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
+      <h4 style="color:var(--sol); margin-bottom:12px;">Problem</h4>
+      <p style="font-size:0.9rem; color:var(--text-muted);">Primarily Grade 3+: students repeat grade-level tests 3+ times while cycling through ineffective hole-filling. Many passed only after multiple HF plans without meaningful skill change.</p>
+    </div>
+    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius); margin-bottom:16px;">
+      <h4 style="color:var(--sol); margin-bottom:12px;">System Fixes</h4>
+      <ul style="margin-left:20px; font-size:0.9rem;">
+        <li><strong>Deploy doom loop detection:</strong> Trigger intervention when same grade-level test &gt;3 attempts.</li>
+        <li><strong>Replace HF content with DI-quality Alpha instruction:</strong> Move students from gap-fill cycling into structured Alpha Math and MAP-style supplementary practice.</li>
+        <li><strong>Fluency intervention pathway</strong> (when FM is constraint):
+          <ul style="margin-left:20px; margin-top:8px;">
+            <li>If FastMath HMG &lt; Math HMG &rarr; treat as performance constraint</li>
+            <li>Require structured fluency block</li>
+            <li>Allow transfer to DreamUp / Math Raiders / AstroMath</li>
+            <li>Standard: 10 min core + 10 min outside core</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div style="background:var(--sol-bg); border-left:4px solid var(--sol); padding:20px; border-radius:var(--radius);">
+      <h4 style="color:var(--sol); margin-bottom:12px;">Success Criteria</h4>
+      <ul style="margin-left:20px; font-size:0.9rem;">
+        <li>Fewer students with 4+ attempts at same grade test</li>
+        <li>Higher pass rates after targeted intervention</li>
+        <li>Fewer repeated HF plans</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Implementation Priority -->
   <div class="card" style="background:var(--sol-bg); border:2px solid var(--sol);">
     <h3 style="color:var(--sol)">Implementation Priority</h3>
-    <ol style="margin-left:20px; font-size:0.9rem;">
-           <li><strong>Immediately (This week):</strong> Replace ineffective and inefficent curriculum for students in buckets 1 and 2</li>
-       <li><strong>Short-term (Next 2 weeks):</strong> Deploy doom loop detection (3+ test attempts alert) and time-on-task monitoring for students in bucket 3b</li>
-      <li><strong>Medium-term (Next quarter):</strong> Replace HF content with MAP-style, TEKS aligned DI instructional content, and refine fluency prerequisites with FastMath mastery gating</li>
-       <li><strong>Medium-term (Next quarter):</strong> Improve K-2 tests with MAP-style, TEKS aligned tests</li>
-      <li><strong>Ongoing:</strong> Monitor alert effectiveness, iterate on intervention response, track 2x growth improvement</li>
-    </ol>
+    <div style="margin-bottom:16px;">
+      <h4 style="color:var(--sol); margin-bottom:8px;">Immediately (This Week)</h4>
+      <ul style="margin-left:20px; font-size:0.9rem;">
+        <li>Identify Bucket 3b students and interrupt cycles (3+ attempts alert) with new Alpha HF content.</li>
+        <li>Begin moving Bucket 1 students off low-effectiveness curriculum.</li>
+        <li>Release TEKS supplementary Alpha courses.</li>
+        <li>Implement FastMath fluency gating in AlphaTests (FM &lt; Math).</li>
+        <li>Start fluency transfers for FM-constrained students.</li>
+      </ul>
+    </div>
+    <div style="margin-bottom:16px;">
+      <h4 style="color:var(--sol); margin-bottom:8px;">Short-Term (2 Weeks)</h4>
+      <ul style="margin-left:20px; font-size:0.9rem;">
+        <li>Turn on pacing and time-on-task alerts (Bucket 2).</li>
+        <li>Ensure no student remains in same grade &gt;16 months without visibility.</li>
+      </ul>
+    </div>
+    <div style="margin-bottom:16px;">
+      <h4 style="color:var(--sol); margin-bottom:8px;">Medium-Term (Next Quarter)</h4>
+      <ul style="margin-left:20px; font-size:0.9rem;">
+        <li>Launch standardized K&ndash;2 test redesign (Bucket 3a).</li>
+      </ul>
+    </div>
+    <div>
+      <h4 style="color:var(--sol); margin-bottom:8px;">Ongoing</h4>
+      <p style="font-size:0.9rem; margin-bottom:8px;">Track:</p>
+      <ul style="margin-left:20px; font-size:0.9rem;">
+        <li>First-pass mastery rates</li>
+        <li>Doom loop rates</li>
+        <li>Time-on-task compliance</li>
+        <li>Fluency alignment (FM vs Math HMG)</li>
+        <li>MAP transfer and 2x growth movement</li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -520,7 +590,7 @@ tr:hover { background:var(--bg); }
 </div>
 
 <!-- BOTTOM LINE -->
-<div class="bottom-line">
+<div class="bottom-line" id="bottom-line">
   <h2>Bottom Line for Leadership</h2>
   <p><strong>196 students failed to reach 2x growth. The data reveals a systemic crisis: 57 students were trapped in doom loops, taking the same test 4+ times while cycling through ineffective content.</strong></p>
   <ul style="max-width:900px; margin:16px auto; text-align:left; font-size:0.95rem;">
@@ -648,6 +718,8 @@ function showSection(id) {
   document.getElementById('section-'+id).classList.add('active');
   document.querySelectorAll('.nav button').forEach(function(b){b.classList.remove('active');});
   event.target.classList.add('active');
+  var bl = document.getElementById('bottom-line');
+  if (bl) { bl.style.display = (id === 'exec' || id === 'solutions') ? '' : 'none'; }
   window.scrollTo({top:0,behavior:'smooth'});
 }
 
